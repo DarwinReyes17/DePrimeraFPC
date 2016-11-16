@@ -26,6 +26,10 @@
             android:name="com.example.deprimerafpc.ActivityDos"
             android:label="@string/title_activity_activity_dos" >
         </activity>
+        <activity
+            android:name="com.example.deprimerafpc.TresActivity"
+            android:label="@string/title_activity_tres" >
+        </activity>
     </application>
 
 </manifest>
