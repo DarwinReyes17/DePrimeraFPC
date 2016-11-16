@@ -6,8 +6,6 @@ import java.io.File;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import com.example.orio2016.R;
-
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
@@ -28,8 +26,9 @@ public class ActivityDos extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_dos);
 		tv=(TextView)findViewById(R.id.textView1);
+		iv=(ImageView)findViewById(R.id.imageView2);
 		Bundle b = getIntent().getExtras();
-		tv.setText("Hola: "+b.getString("Dato")+"Bienvenido, acá podras consultar información de tu equipo.");
+		tv.setText("Hola: "+b.getString("Dato")+" Bienvenido, acá podras consultar información de tu equipo.");
 		p=b.getInt("Dato2");
 		switch (p){
 		case 1: iv.setImageResource(R.drawable.apetrolera);break;
@@ -81,11 +80,22 @@ public class ActivityDos extends Activity {
 		}
 	}
 	
-	public void medallao(View v){
+	public void club(View v){
 		Intent i = new Intent (this, TresActivity.class);
 		Bundle b = new Bundle();
 		Bundle pa = new Bundle();
 		b.putInt("Dato", 1);
+		pa.putInt("Dato2", p);
+		i.putExtras(b);
+		i.putExtras(pa);
+		startActivity(i);
+	}
+	
+	public void plantilla(View v){
+		Intent i = new Intent (this, TresActivity.class);
+		Bundle b = new Bundle();
+		Bundle pa = new Bundle();
+		b.putInt("Dato", 2);
 		pa.putInt("Dato2", p);
 		i.putExtras(b);
 		i.putExtras(pa);
