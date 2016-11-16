@@ -21,9 +21,29 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int fondo=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int logo=0x7f020002;
+        public static final int apetrolera=0x7f020000;
+        public static final int bucaramanga=0x7f020001;
+        public static final int cali=0x7f020002;
+        public static final int chico=0x7f020003;
+        public static final int cortulua=0x7f020004;
+        public static final int envigado=0x7f020005;
+        public static final int equidad=0x7f020006;
+        public static final int fondo=0x7f020007;
+        public static final int fortaleza=0x7f020008;
+        public static final int huila=0x7f020009;
+        public static final int ic_launcher=0x7f02000a;
+        public static final int jaguares=0x7f02000b;
+        public static final int junior=0x7f02000c;
+        public static final int logo=0x7f02000d;
+        public static final int medellin=0x7f02000e;
+        public static final int millonarios=0x7f02000f;
+        public static final int nacinal=0x7f020010;
+        public static final int oncecaldas=0x7f020011;
+        public static final int pasto=0x7f020012;
+        public static final int patriotas=0x7f020013;
+        public static final int rionegro=0x7f020014;
+        public static final int santafe=0x7f020015;
+        public static final int tolima=0x7f020016;
     }
     public static final class id {
         public static final int action_settings=0x7f090010;
